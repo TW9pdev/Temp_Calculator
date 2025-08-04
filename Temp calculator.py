@@ -24,14 +24,14 @@ if langue == 2:
 
     while choix not in [1, 2, 3]:
         try:
-            choix = int(input("Entre 1 pour des degrès Celcius, 2 pour Fahrenheit et 3 pour les Kelvins: "))
+            choix = int(input("Si ce sont des degrès Celcius, entre 1, 2 pour Fahrenheit et 3 pour les Kelvins: "))
 
             if choix == 1:
-                print("Tu as choisis les degrès Celcius")
+                print("Tu as choisis les degrès Celcius (",temp,"°C)")
             elif choix == 2:
-                print("Tu as choisis les degrès Fahrenheit")
+                print("Tu as choisis les degrès Fahrenheit(",temp,"°F)")
             else:
-                print("Tu as choisis les degrès Kelvins")
+                print("Tu as choisis les degrès Kelvins(",temp,"K)")
         except ValueError:
             print("Veuillez Entrer un nombre")
             
@@ -91,14 +91,14 @@ if langue == 1:
 
     while choix not in [1, 2, 3]:
         try:
-            choix = int(input("Enter 1 for degrees Celsius, 2 for Fahrenheit and 3 for Kelvins: "))
+            choix = int(input("If these are degrees Celsius, enter 1, 2 for Fahrenheit and 3 for Kelvin: "))
 
             if choix == 1:
-                print("You choose degrees Celcius")
+                print("You choose degrees Celcius(",temp,"°C)")
             elif choix == 2:
-                print("You choose degrees Fahrenheit")
+                print("You choose degrees Fahrenheit(",temp,"°F)")
             else:
-                print("You choose degrees Kelvins")
+                print("You choose degrees Kelvins(",temp,"K)")
         except ValueError:
             print("Please enter a number")
             
@@ -146,5 +146,4 @@ if langue == 1:
     print()
 
     print("Thanks for use 'Temp_Calculator' !")
-
 
