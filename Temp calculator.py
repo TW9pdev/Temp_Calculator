@@ -16,7 +16,7 @@ while langue not in [1, 2]:
 if langue == 2:
     while True:
         try:
-            temp = int(input("Entre la température que tu souhaites convertir (seulement le chifre/nombre): "))
+            temp = int(input("Entre la température que tu souhaites convertir (seulement le chiffre/nombre): "))
             break
         except ValueError:
             print("Veuillez Entrer un nombre")
@@ -146,4 +146,5 @@ if langue == 1:
     print()
 
     print("Thanks for use 'Temp_Calculator' !")
+
 
